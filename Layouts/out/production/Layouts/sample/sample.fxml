@@ -19,7 +19,7 @@
 <!--        <ColumnConstraints percentWidth="50.0"/>&lt;!&ndash;For first Column&ndash;&gt;-->
 <!--        <ColumnConstraints percentWidth="50.0"/>&lt;!&ndash;For second Column&ndash;&gt;-->
 <!--    </columnConstraints>-->
-    <Button text="Button One" GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.halignment="right"></Button>
+    <Button text="Button One" GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.halignment="RIGHT"></Button>
     <Button text="Button Two" GridPane.rowIndex="0" GridPane.columnIndex="1"></Button>
     <Button text="Button Three" GridPane.rowIndex="1" GridPane.columnIndex="0"></Button>
     <Button text="Really Long Text Button Four" GridPane.rowIndex="3" GridPane.columnIndex="0" GridPane.columnSpan="2"></Button>
