@@ -3,6 +3,16 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<GridPane fx:controller="sample.Controller"
-          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
-</GridPane>
+<?import javafx.scene.layout.HBox?>
+<HBox fx:controller="sample.Controller"
+      xmlns:fx="http://javafx.com/fxml" alignment="bottom_right"
+      style="-fx-border-color: red; -fx-border-width: 3; -fx-border-style: dashed"
+        spacing="10">
+<!--CSS incorporated into application styling-->
+    <padding>
+        <Insets bottom="10" right="10"></Insets>
+    </padding>
+    <Button text="Okay" prefWidth="90"></Button>
+    <Button text="Cancel" prefWidth="90"></Button>
+    <Button text="Help" prefWidth="90"></Button>
+</HBox>
