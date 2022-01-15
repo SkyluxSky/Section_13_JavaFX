@@ -1,4 +1,3 @@
-
 <?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.control.Button?>
 <FlowPane fx:controller="sample.Controller"
