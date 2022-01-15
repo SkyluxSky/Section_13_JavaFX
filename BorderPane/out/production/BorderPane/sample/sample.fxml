@@ -14,6 +14,7 @@
     </top>
     <left>
         <Label text="This label is in the left position" alignment="CENTER"
+
                style="-fx-border-color: blue; -fx-border-width: 3; -fx-border-style: dashed"/>
     </left>
     <center>
@@ -23,6 +24,7 @@
     </center>
     <right>
         <Label text="This label is in the right position" alignment="CENTER"
+              
                style="-fx-border-color: blue; -fx-border-width: 3; -fx-border-style: dashed"/>
     </right>
     <bottom>
